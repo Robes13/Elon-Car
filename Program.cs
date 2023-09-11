@@ -1,0 +1,19 @@
+﻿using Elon.Controller;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Elon
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Build build = new Build();
+            build.StartBuild();
+
+        }
+    }
+}
